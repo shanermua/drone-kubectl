@@ -1,6 +1,4 @@
-FROM bitnami/kubectl:1.16
-
-LABEL maintainer "Sinlead <opensource@sinlead.com>"
+FROM bitnami/kubectl:1.30
 
 COPY init-kubectl kubectl /opt/sinlead/kubectl/bin/
 
